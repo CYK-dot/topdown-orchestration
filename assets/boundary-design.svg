@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520" role="img" aria-labelledby="boundary-title boundary-desc">
+  <title id="boundary-title">源 prompt 边界：场景层横跨机制面与资源面</title>
+  <desc id="boundary-desc">源 prompt 按机制面与资源面组织，场景层横跨两个面。场景层包含软件设计、软件实现、其他场景，每个场景都携带自己的机制与知识。机制面包含框架层，框架层包含自顶而下框架、能力维护框架、其他框架，其中自顶而下框架以高亮标出。资源面包含能力层，能力层包含编程规范、设计规范、其他能力。</desc>
+
+  <rect width="900" height="520" fill="#ffffff"/>
+
+  <line x1="450" y1="24" x2="450" y2="500" stroke="#9aa9ba" stroke-width="1.5"/>
+
+  <text x="20" y="52" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="19" font-weight="bold" fill="#334155" text-anchor="start">机制面</text>
+  <rect x="20" y="60" width="28" height="3" rx="1.5" fill="#64748b"/>
+  <text x="470" y="52" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="19" font-weight="bold" fill="#1e4a7a" text-anchor="start">资源面</text>
+  <rect x="470" y="60" width="28" height="3" rx="1.5" fill="#4a7ebb"/>
+
+  <!-- 场景层：横跨两个面 -->
+  <rect x="20" y="80" width="860" height="150" rx="14" fill="#fdf7ed" stroke="#e0b98a" stroke-width="1.8"/>
+  <rect x="40" y="96" width="4" height="16" rx="2" fill="#d97706"/>
+  <text x="52" y="109" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="16" font-weight="bold" fill="#b45309" text-anchor="start">场景层</text>
+
+  <rect x="40" y="120" width="262.67" height="92" rx="7" fill="#ffffff" stroke="#ecd3ae" stroke-width="1.2"/>
+  <text x="171.33" y="150" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="14" font-weight="600" fill="#1e293b" text-anchor="middle">软件设计</text>
+  <rect x="52" y="162" width="114.33" height="32" rx="6" fill="#eef2f7" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="109.17" y="182" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="10" fill="#475569" text-anchor="middle">机制</text>
+  <rect x="176.33" y="162" width="114.33" height="32" rx="6" fill="#eaf2fd" stroke="#b7cde4" stroke-width="1"/>
+  <text x="233.5" y="182" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="10" fill="#1e4a7a" text-anchor="middle">知识</text>
+
+  <rect x="318.67" y="120" width="262.67" height="92" rx="7" fill="#ffffff" stroke="#ecd3ae" stroke-width="1.2"/>
+  <text x="450" y="150" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="14" font-weight="600" fill="#1e293b" text-anchor="middle">软件实现</text>
+  <rect x="330.67" y="162" width="114.33" height="32" rx="6" fill="#eef2f7" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="387.84" y="182" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="10" fill="#475569" text-anchor="middle">机制</text>
+  <rect x="455" y="162" width="114.33" height="32" rx="6" fill="#eaf2fd" stroke="#b7cde4" stroke-width="1"/>
+  <text x="512.17" y="182" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="10" fill="#1e4a7a" text-anchor="middle">知识</text>
+
+  <rect x="597.33" y="120" width="262.67" height="92" rx="7" fill="#ffffff" stroke="#ecd3ae" stroke-width="1.2"/>
+  <text x="728.67" y="150" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="14" font-weight="600" fill="#1e293b" text-anchor="middle">其他场景</text>
+  <rect x="609.33" y="162" width="114.33" height="32" rx="6" fill="#eef2f7" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="666.5" y="182" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="10" fill="#475569" text-anchor="middle">机制</text>
+  <rect x="733.67" y="162" width="114.33" height="32" rx="6" fill="#eaf2fd" stroke="#b7cde4" stroke-width="1"/>
+  <text x="790.84" y="182" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="10" fill="#1e4a7a" text-anchor="middle">知识</text>
+
+  <!-- 框架层 -->
+  <rect x="20" y="255" width="420" height="235" rx="10" fill="#f5f8fc" stroke="#8b9bb0" stroke-width="1.5"/>
+  <rect x="38" y="266" width="4" height="16" rx="2" fill="#64748b"/>
+  <text x="50" y="279" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="16" font-weight="bold" fill="#334155" text-anchor="start">公共框架层</text>
+
+  <rect x="32" y="288" width="396" height="64" rx="9" fill="none" stroke="#f0c47f" stroke-width="1.2"/>
+  <rect x="38" y="294" width="384" height="52" rx="7" fill="#fff6e6" stroke="#d97706" stroke-width="2.2"/>
+  <text x="230" y="325" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="13.5" font-weight="700" fill="#92400e" text-anchor="middle">自顶而下框架</text>
+
+  <rect x="38" y="356" width="384" height="52" rx="7" fill="#ffffff" stroke="#c6d0dd" stroke-width="1.2"/>
+  <text x="230" y="387" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="13.5" font-weight="600" fill="#1e293b" text-anchor="middle">能力维护框架</text>
+  <rect x="38" y="418" width="384" height="52" rx="7" fill="#ffffff" stroke="#c6d0dd" stroke-width="1.2"/>
+  <text x="230" y="449" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="13.5" font-weight="600" fill="#1e293b" text-anchor="middle">其他框架</text>
+
+  <!-- 能力层 -->
+  <rect x="460" y="255" width="420" height="235" rx="10" fill="#f2f7fe" stroke="#7ba3cc" stroke-width="1.5"/>
+  <rect x="478" y="266" width="4" height="16" rx="2" fill="#2563eb"/>
+  <text x="490" y="279" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="16" font-weight="bold" fill="#1d4ed8" text-anchor="start">公共能力层</text>
+  <rect x="478" y="294" width="384" height="52" rx="7" fill="#ffffff" stroke="#b7cde4" stroke-width="1.2"/>
+  <text x="670" y="325" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="13.5" font-weight="600" fill="#1e293b" text-anchor="middle">编程规范</text>
+  <rect x="478" y="356" width="384" height="52" rx="7" fill="#ffffff" stroke="#b7cde4" stroke-width="1.2"/>
+  <text x="670" y="387" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="13.5" font-weight="600" fill="#1e293b" text-anchor="middle">设计规范</text>
+  <rect x="478" y="418" width="384" height="52" rx="7" fill="#ffffff" stroke="#b7cde4" stroke-width="1.2"/>
+  <text x="670" y="449" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="13.5" font-weight="600" fill="#1e293b" text-anchor="middle">其他能力</text>
+</svg>
